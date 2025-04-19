@@ -1,0 +1,20 @@
+[project]
+name = "todo"
+version = "0.1.0"
+description = ""
+authors = [{name = "Brae Webb"}, {name = "Evan Hughes"}]
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+  "flask >= 3.1",
+  "flask-sqlalchemy >= 3.1.1",
+  "psycopg >= 3.2",
+  "gunicorn >= 23",
+  "watchtower >= 3",
+  "importlib-metadata >= 8.6"
+]
+
+[build-system]
+requires = ["poetry-core >= 2"]
+build-backend = "poetry.core.masonry.api"
